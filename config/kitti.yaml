@@ -1,0 +1,12 @@
+type: 'kitti'
+root_dir: '/home/optobot-01/haosenWang/code/LPCG-master'
+
+data_dir: '/home/optobot-01/haosenWang/code/LPCG-master/data/kitti'
+raw_data_dir: '/home/optobot-01/haosenWang/code/LPCG-master/data/kitti/raw_data'
+KITTI3D_data_dir: '/home/optobot-01/haosenWang/code/LPCG-master/data/kitti/KITTI3D/training'
+KITTI_merge_data_dir: '/home/optobot-01/haosenWang/code/LPCG-master/data/kitti/kitti_merge/training'
+
+writelist: ['Car']
+label_mode: ['high_acc']
+#optional: label_mode: ['low_cost'] or label_mode: ['high_acc', 'low_cost']
+
